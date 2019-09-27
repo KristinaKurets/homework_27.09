@@ -52,7 +52,7 @@ namespace game
                         Console.WriteLine(names[i]);
                     }
 
-                else Console.WriteLine($"So, {names[rnd.Next(names.Count)]} should {quests[rnd.Next(13)]}!");
+                else Console.WriteLine($"So, {names[rnd.Next(names.Count)]} should {quests[rnd.Next(quests.Length)]}!");
             }
    
         }
